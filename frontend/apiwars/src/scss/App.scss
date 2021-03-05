@@ -1,0 +1,13 @@
+@import "./Table.scss";
+@import "./Navigation.scss";
+@import "./Modal.scss";
+@import "./Login.scss";
+@import "./Sike.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,56 @@
+#allContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100%;
+
+  padding-top: 5%;
+
+  #formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+    width: 30vw;
+
+    border: 3px solid black;
+
+    label {
+      padding: 5px;
+
+      font-weight: 500;
+    }
+
+    input {
+      padding: 5px 10px;
+    }
+  }
+
+  button {
+    outline: none;
+
+    width: 100px;
+    height: 40px;
+
+    margin-top: 30px;
+
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    background-color: white;
+    color: rgb(116, 116, 116);
+
+    &:hover {
+      background-color: rgb(129, 129, 129);
+      color: white;
+    }
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+}
